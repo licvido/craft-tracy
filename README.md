@@ -27,12 +27,12 @@ To install the plugin, follow these instructions.
 ## Usage
 
 ```twig
-Dump varialbe in place.
+Dump variable in place.
 {{ dump(entity) }}
 
 Dump variable to debug bar.
 {{ bdump(entity) }}
 
-Dump varibale in place and exit.
+Dump variable in place and exit.
 {{ dumpe(entity) }}
 ```
