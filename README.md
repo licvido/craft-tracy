@@ -26,13 +26,12 @@ To install the plugin, follow these instructions.
 
 ## Usage
 
+The plugin makes following functions available in templates:
+
 ```twig
-Dump variable in place.
-{{ dump(entity) }}
+{{ dump(entity) }} - Dump variable in place.
 
-Dump variable to debug bar.
-{{ bdump(entity) }}
+{{ dumpe(entity) }} - Dump variable in place and exit.
 
-Dump variable in place and exit.
-{{ dumpe(entity) }}
+{{ bdump(entity) }} - Dump variable to debug bar.
 ```
