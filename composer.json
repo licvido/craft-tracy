@@ -1,19 +1,19 @@
 {
-    "name": "licvido/craft-tracy",
+    "name": "siteone/craft-tracy",
     "description": "Tracy plugin for Craft CMS 3.x",
     "type": "craft-plugin",
     "keywords": [
         "craft", "cms", "craftcms", "craft-plugin", "tracy", "debug", "debugger", "nette", "profiler", "twig", "xdebug"
     ],
     "support": {
-        "docs": "https://github.com/licvido/craft-tracy/blob/master/README.md",
-        "issues": "https://github.com/licvido/craft-tracy/issues"
+        "docs": "https://github.com/siteone/craft-tracy/blob/master/README.md",
+        "issues": "https://github.com/siteone/craft-tracy/issues"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Filip Mikovcak",
-            "homepage": "https://www.github.com/licvido"
+            "name": "SiteOne, s.r.o.",
+            "homepage": "https://www.github.com/siteone"
         }
     ],
     "require": {
@@ -23,16 +23,16 @@
     },
     "autoload": {
         "psr-4": {
-            "licvido\\tracy\\": "src/"
+            "siteone\\tracy\\": "src/"
         }
     },
     "extra": {
         "name": "Tracy",
         "handle": "tracy",
-        "developer": "Filip Mikovcak",
-        "developerUrl": "https://www.github.com/licvido",
-        "documentationUrl": "https://github.com/licvido/craft-tracy/blob/master/README.md",
-        "changelogUrl": "https://raw.githubusercontent.com/licvido/craft-tracy/master/CHANGELOG.md",
-        "class": "licvido\\tracy\\Tracy"
+        "developer": "SiteOne",
+        "developerUrl": "https://www.github.com/siteone",
+        "documentationUrl": "https://github.com/siteone/craft-tracy/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/siteone/craft-tracy/master/CHANGELOG.md",
+        "class": "siteone\\tracy\\Tracy"
     }
 }

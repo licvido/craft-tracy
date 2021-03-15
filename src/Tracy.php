@@ -4,16 +4,16 @@
  *
  * A must-have debugging tool for all PHP developers
  *
- * @link      https://www.github.com/licvido/craft-tracy
- * @copyright Copyright (c) 2021 Filip Mikovcak
+ * @link      https://www.github.com/siteone/craft-tracy
+ * @copyright Copyright (c) 2021 SiteOne, s.r.o.
  */
 
-namespace licvido\tracy;
+namespace siteone\tracy;
 
 use Craft;
 use craft\base\Plugin;
 use Idmarinas\TracyPanel\TwigBar;
-use licvido\tracy\twigextensions\TracyTwigExtension;
+use siteone\tracy\twigextensions\TracyTwigExtension;
 use Tracy\Debugger;
 use Twig\Extension\ProfilerExtension;
 use Twig\Profiler\Profile;
@@ -21,7 +21,7 @@ use Twig\Profiler\Profile;
 /**
  * Tracy plugin
  *
- * @author    Filip Mikovcak
+ * @author    SiteOne, s.r.o.
  * @package   Tracy
  * @since     1.0.0
  *

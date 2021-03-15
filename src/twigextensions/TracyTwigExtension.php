@@ -4,18 +4,18 @@
  *
  * A must-have debugging tool for all PHP developers
  *
- * @link      https://www.github.com/licvido/craft-tracy
- * @copyright Copyright (c) 2021 Filip Mikovcak
+ * @link      https://www.github.com/siteone/craft-tracy
+ * @copyright Copyright (c) 2021 SiteOne, s.r.o.
  */
 
-namespace licvido\tracy\twigextensions;
+namespace siteone\tracy\twigextensions;
 
 use Tracy\Debugger;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 
 /**
- * @author    Filip Mikovcak
+ * @author    SiteOne, s.r.o.
  * @package   Tracy
  * @since     1.0.0
  */
